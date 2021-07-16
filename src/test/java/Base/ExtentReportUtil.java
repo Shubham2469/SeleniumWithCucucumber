@@ -18,6 +18,7 @@ import java.nio.file.Files;
 public class ExtentReportUtil extends BaseUtil {
 
     String fileName = reportLocation + "extentreport.html";
+    ExtentSparkReporter spark = new ExtentSparkReporter("Spark.html");
 
 
     public void ExtentReport() {
